@@ -39,7 +39,7 @@ void wifii_managerr_setup() {
   wm.setConfigPortalTimeout(30); // auto close configportal after n seconds
 
   bool res;
-  res = wm.autoConnect("AutoConnectAP", "password"); // password protected ap
+  res = wm.autoConnect("SMART-URBAN-FST"); // password protected ap
 
   if (!res) {
     Serial.println("Failed to connect or hit timeout");

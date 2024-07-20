@@ -1,6 +1,7 @@
 
 #define TRIGGER_PIN 0
-
+#define DHTPIN 15     // Digital pin connected to the DHT sensor 
+#define DHTTYPE    DHT22     // DHT 22 (AM2302)
 
 const char* mqtt_server = "dimasalifta.tech";
 const char* mqtt_topic = "smarturbanfarming/kit/1";
